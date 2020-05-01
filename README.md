@@ -1,8 +1,10 @@
 # schoolMIPS
 ## Лабораторная работа №2
 ### 6-й вариант: реализация иструкций SLTI и SLTIU
-Тестовые программы для соответствующих инструкций \program\counter_slti и \program\counter_sltiu.
-Результаты тестовой программы будут записываться в output.txt
+Тестовые программы для соответствующих инструкций **\program\counter_slti** и **\program\counter_sltiu**.
+Результаты тестовой программы будут записываться в **output.txt**.
+
+
 
 
 A small MIPS CPU core originally based on Sarah L. Harris MIPS CPU ("Digital Design and Computer Arhitecture" by David Money Harris and Sarah L Harris). The first version of schoolMIPS was written for [Young Russian Chip Architects](http://www.silicon-russia.com/2017/06/09/arduino-and-fpga/) summer school.
