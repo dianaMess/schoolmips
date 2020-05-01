@@ -16,7 +16,7 @@ source ../icarus.cfg
 iverilog -g2005 -D SIMULATION -D ICARUS -I ../../../src -I ../../../testbench -s sm_testbench ../../../src/*.v ../../../testbench/*.v
 
 # simulation
-vvp -la.lst -n a.out -vcd
+vvp -la.lst -n a.out -vcd > ../output.txt 
 
 # output
 gtkwave dump.vcd

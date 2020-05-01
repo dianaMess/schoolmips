@@ -159,10 +159,10 @@ module sm_alu
             `ALU_ADD  : 
 						begin  
 						if (is_signed) 
-							result = ($signed(srcA) + $signed(srcB));
+                            result = ($signed(srcA) + $signed(srcB));
 						else
 							result = srcA + srcB;
-						end
+                        end
             `ALU_OR   : result = srcA | srcB;
             `ALU_LUI  : result = (srcB << 16);
             `ALU_SRL  : result = srcB >> shift;
